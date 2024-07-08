@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Tweet Selected Text",
+    "version": "1.0",
+    "description": "Tweet selected text directly from the current tab",
+    "permissions": [
+      "contextMenus",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
